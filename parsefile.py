@@ -36,6 +36,8 @@ def main(path):
         return False
 
 if __name__ == '__main__':
+    print("parse_file:\n", parse_file.__doc__)
+    print("main:\n", main.__doc__)
     if len(sys.argv) > 1:
         main(sys.argv[1])
     else:
